@@ -23,7 +23,7 @@ mongoose
         // subir o servidor Apollo APENAS se for possivel conectar ao banco MongoDB.
         const server = new ApolloServer( { typeDefs, resolvers,  context: { pubsub }});
         server
-            .listen(process.env.PORT || 4000)
+            .listen({port:process.env.PORT || 4000})
             .then(({url})=> console.log(`Servidor rodando na porta ${url}`))
             .catch( (error) => console.log("Server failed: ", error));
     })
