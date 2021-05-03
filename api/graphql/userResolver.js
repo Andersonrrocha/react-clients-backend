@@ -34,7 +34,8 @@ const userResolvers = {
 			await User.findByIdAndUpdate(user._id, user);
 			const users = await User.find();
 			pubsub.publish(USER_CHANGED, {users:users});
-			return `Usuario ${user.name} atualizado!`
+			const userUpdated =await User.findById(user._id);
+			return userUpdated
 		},
 
 		deleteUser: async (_, { _id }, {pubsub}) => {

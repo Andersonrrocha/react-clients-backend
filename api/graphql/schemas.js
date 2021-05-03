@@ -49,6 +49,7 @@ const mutation = gql`
 	}
 
     input UserInput {
+		_id:ID
         name: String!
         cpf: String!
         email: String!
