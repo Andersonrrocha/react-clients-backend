@@ -15,7 +15,7 @@ const userResolvers = {
             return User.findById(id);
         },
         users() {
-            return User.find();
+            return User.find().sort({createdAt:-1});
         }
     },
     Mutation:{
