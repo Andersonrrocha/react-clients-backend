@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/npm/v/react?label=React"/> <img src="https://img.shields.io/github/languages/code-size/Andersonrrocha/react-clients-backend"/> <img src="https://img.shields.io/github/last-commit/Andersonrrocha/react-clients-backend"/> <img src="https://img.shields.io/github/license/andersonrrocha/react-clients-backend"/>
+<img src="https://img.shields.io/github/languages/code-size/Andersonrrocha/react-clients-backend"/> <img src="https://img.shields.io/github/last-commit/Andersonrrocha/react-clients-backend"/> <img src="https://img.shields.io/github/license/andersonrrocha/react-clients-backend"/>
 # React Clients
 
 ## Indice
